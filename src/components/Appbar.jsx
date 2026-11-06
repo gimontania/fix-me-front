@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router';
 
 export default function Appbar() {
     return (
@@ -11,6 +11,8 @@ export default function Appbar() {
                     <li><a href="#" className="hover:underline">About</a></li>
                     <li><a href="#" className="hover:underline">Contact</a></li>
                 </ul>
+                <Link> 
+            </Link>
             </div>
         </nav>
     )
